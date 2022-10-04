@@ -1,0 +1,74 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Kivy_KivyMD/.kivy/logs/kivy_22-03-29_13.txt
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.9.7 (default, Oct  6 2021, 01:34:26) 
+[GCC 11.1.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] KivyMD: 0.104.2, git-bc7d1f5, 2021-06-06 (installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/__init__.py")
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 v1.r20p0-01rel0.f5fa95a54aeb4b209f278b52b4102f78'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-G52 MC2'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <8192>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/Kivy_KivyMD/alert.py", line 48, in <module>
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/app.py", line 950, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/base.py", line 582, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/base.py", line 347, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/base.py", line 391, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/base.py", line 342, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/base.py", line 308, in post_dispatch_input
+[WARNING] stderr:     wid.dispatch('on_touch_up', me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/behaviors/ripple_behavior.py", line 296, in on_touch_up
+[WARNING] stderr:     return super().on_touch_up(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/button.py", line 981, in on_touch_up
+[WARNING] stderr:     return super().on_touch_up(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+[WARNING] stderr:     self.dispatch('on_release')
+[WARNING] stderr:   File "kivy/_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/lang/builder.py", line 57, in custom_callback
+[WARNING] stderr:     exec(__kvlang__.co_value, idmap)
+[WARNING] stderr:   File "<string>", line 7, in <module>
+[WARNING] stderr:   File "/storage/emulated/0/Kivy_KivyMD/alert.py", line 30, in show_alert_dialog
+[WARNING] stderr:     MDFlatButton(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/behaviors/elevation.py", line 1350, in __init__
+[WARNING] stderr:     super().__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/behaviors/backgroundcolor_behavior.py", line 178, in __init__
+[WARNING] stderr:     super().__init__(**kwarg)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/behaviors/elevation.py", line 847, in __init__
+[WARNING] stderr:     super().__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/uix/button.py", line 891, in __init__
+[WARNING] stderr:     super().__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivymd/theming.py", line 1140, in __init__
+[WARNING] stderr:     super().__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/uix/behaviors/button.py", line 121, in __init__
+[WARNING] stderr:     super(ButtonBehavior, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/uix/anchorlayout.py", line 68, in __init__
+[WARNING] stderr:     super(AnchorLayout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/uix/layout.py", line 76, in __init__
+[WARNING] stderr:     super(Layout, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/kivy/uix/widget.py", line 350, in __init__
+[WARNING] stderr:     super(Widget, self).__init__(**kwargs)
+[WARNING] stderr:   File "kivy/_event.pyx", line 245, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)
